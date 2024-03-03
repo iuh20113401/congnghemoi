@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scrollbar-gutter: stable;
+}
+/* SPACING SYSTEM (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+FONT-SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74
+/ 86 / 98
+ */
+:root {
+  --color--main_dark: #39418a;
+  --color--main: #1971c2;
+  --color--main_light: #a5d8ff;
+  --color--secondary_1: #ffffff;
+  --color--secondary_2: #f6f6f6;
+  --color--secondary_3: #eaeaea;
+  --color--secondary_4: #d2d3d3;
+  --color--secondary_5: #b1b2b2;
+  --color--secondary_6: #8e9090;
+  --color--secondary_7: #797a7b;
+  --color--secondary_8: #57595a;
+  --color--secondary_9: #797a7b;
+  --color--secondary_10: #1f2223;
+  --color--green: #5c940d;
+  --color--red_dark: #c92a2a;
+  --color--red: #f03e3e;
+}

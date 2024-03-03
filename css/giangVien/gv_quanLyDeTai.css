@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  gap: 3.2rem;
+}
+.main {
+  width: 75%;
+  padding: 3.2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.body::-webkit-scrollbar {
+  color: red;
+  background-color: red;
+}
+.main--tieuDe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

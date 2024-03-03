@@ -1,0 +1,61 @@
+@import url("base.css");
+.buttons {
+  display: flex;
+  gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.buttons_doc {
+  flex-direction: column;
+}
+.buttons.full {
+  width: 100%;
+}
+.btn {
+  min-width: fit-content;
+  height: 4.8rem;
+  padding: 0 3.2rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+
+.btn_small {
+  width: fit-content;
+  height: 3.6rem;
+  padding: 0 1.6rem;
+}
+.btn--primary {
+  background-color: var(--color--main);
+  color: var(--color--secondary_2);
+}
+.btn--secondary {
+  border: 1px solid var(--color--main);
+  background-color: var(--color--secondary_1);
+  color: var(--color--main);
+}
+.btn--third {
+  background-color: var(--color--red);
+  color: var(--color--secondary_1);
+}
+.btn--fourth {
+  background-color: var(--color--secondary_6);
+  color: var(--color--secondary_10);
+}
+.btn:hover {
+  transform: translateY(-0.3rem);
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(0);
+  filter: brightness(1.3) grayscale(0.4);
+}
+.btn--fourth:hover {
+  cursor: not-allowed;
+}
+.btn--round {
+  padding: 1rem 1.6rem;
+  text-align: center;
+  border-radius: 50%;
+}

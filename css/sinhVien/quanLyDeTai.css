@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.layer + .container {
+  height: 100vh;
+  position: fixed;
+}
+.main {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.buttons--top {
+  justify-content: end;
+}
+.content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+}
+.content--right {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.content .content--left {
+  display: none;
+}
+.main.active .content--right {
+  width: 80%;
+}
+.main.active .content--left {
+  display: inline-block;
+  width: 20%;
+  padding: 1.5rem 0;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.tag {
+  margin: 0rem 0.8rem;
+}

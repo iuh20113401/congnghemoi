@@ -1,0 +1,10 @@
+@import url("../trangChuChung.css");
+.container {
+  display: flex;
+  gap: 3.2rem;
+}
+.main {
+  width: 75%;
+  padding: 3.2rem 0;
+  box-sizing: border-box;
+}

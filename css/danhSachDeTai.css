@@ -1,0 +1,54 @@
+@import url("base.css");
+.container {
+  width: 98%;
+  margin: auto;
+}
+.dsDeTai {
+  display: flex;
+  flex-direction: column;
+}
+.layer + .container {
+  position: fixed;
+  height: 100vh;
+}
+.tieuDe {
+  background-color: var(--color--main);
+  color: var(--color--secondary_2);
+  padding: 2.4rem 3.2rem;
+}
+.noiDung {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.noiDung--thongTin:nth-child(even) {
+  background-color: var(--color--secondary_3);
+}
+.noiDung--thongTin {
+  align-items: center;
+  padding: 2.4rem 3.2rem;
+  transition: all 0.3s ease;
+}
+.noiDung--thongTin:hover {
+  background-color: var(--color--secondary_5);
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+/* .tbl {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.tbl th {
+  background-color: var(--color--main);
+  color: var(--color--secondary_1);
+  padding: 0.8rem;
+}
+.tbl td {
+  padding: 0.8rem;
+}
+.tbl .icon {
+  width: 3.2rem;
+} */

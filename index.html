@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./css/dangNhap.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/spacing.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <script type="module" src="./javascripts/dangNhap.js"></script>
+  </head>
+  <body>
+    <div class="container dangNhap">
+      <div class="dangNhap--logoBox">
+        <img
+          src="./img/Logo_IUH.png"
+          alt="Logo of iuh"
+          class="dangNhap--logo"
+        />
+      </div>
+      <div class="dangNhap--form">
+        <form class="p-48">
+          <div class="dangNhap--tieuDe">
+            <h3 class="heading heading--2">Đăng nhập</h3>
+          </div>
+          <div class="inputFields">
+            <div class="inputField reverse inputField_doc">
+              <input
+                type="text"
+                placeholder="Mã tài khoản"
+                id="maTaiKhoan"
+                name="maTaiKhoan"
+                class="input"
+                autocomplete="username"
+              />
+              <label for="maTaiKhoan" class="heading heading--5"
+                >Mã tài khoản</label
+              >
+            </div>
+            <div class="inputField reverse inputField_doc">
+              <input
+                type="password"
+                placeholder="Mật khẩu"
+                id="matKhau"
+                name="matKhau"
+                class="input"
+                autocomplete="current-password"
+              />
+              <label for="matKhau" class="heading heading--5">Mật khẩu</label>
+            </div>
+            <div class="danhNhap--ghiNho inputField">
+              <input type="checkbox" id="ghiNho" name="ghiNho" />
+              <label
+                for="ghiNho"
+                class="text--body text--body_14_bold label_large"
+                >Ghi nhớ tài khoản</label
+              >
+            </div>
+          </div>
+          <div class="error hidden"></div>
+          <div class="buttons">
+            <button
+              class="btn btn--primary text--body text--body_16"
+              id="dangNhap"
+            >
+              Đăng nhập
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

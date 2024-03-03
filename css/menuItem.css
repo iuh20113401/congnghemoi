@@ -1,0 +1,46 @@
+@import url("base.css");
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  list-style: none;
+}
+
+.menuItems_gv {
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.menuItem,
+.menuItem:link,
+.menuItem:active {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: var(--color--secondary_10);
+}
+.menuItem:hover,
+.menuItem:active {
+  color: var(--color--main);
+  cursor: pointer;
+}
+.icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.menuItem.active {
+  color: var(--color--main);
+}
+.menuItem_gv {
+  color: var(--color--secondary_10);
+}
+
+.menuItem_gv:hover {
+  color: var(--color--secondary_1);
+}
+
+.menuItem_gv.active {
+  color: var(--color--secondary_2);
+}

@@ -1,0 +1,13 @@
+@import url("base.css");
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag {
+  margin: 0.5rem 0.5rem;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0.6rem;
+  background-color: var(--color--red);
+  color: var(--color--secondary_10);
+  flex-shrink: 0;
+}

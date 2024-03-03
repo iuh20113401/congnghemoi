@@ -1,0 +1,58 @@
+@import url("./base.css");
+.truotXuong {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  width: 100%;
+}
+.truotXuong_nho {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  width: 100%;
+}
+.truotXuong--tieuDe,
+.truotXuong_nho--tieuDe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+.truotXuong_nho--tieuDe {
+  background-color: var(--color--main_light);
+}
+.truotXuong--tieuDe:hover,
+.truotXuong_nho--tieuDe:hover {
+  cursor: pointer;
+  transform: translateY(-0.3rem);
+}
+.truotXuong--icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all 0.2s ease-in;
+}
+
+.truotXuong--noiDung {
+  width: 100%;
+  display: none;
+}
+.truotXuong.active .truotXuong--noiDung {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.truotXuong--noiDung .icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.truotXuong_nho--noiDung {
+  display: none;
+}
+.truotXuong_nho.active .truotXuong_nho--noiDung {
+  display: block;
+}

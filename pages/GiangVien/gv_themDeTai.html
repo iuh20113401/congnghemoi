@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thêm đề tài</title>
+    <link rel="stylesheet" href="../../css/menuItem.css" />
+    <link rel="stylesheet" href="../../css/typography.css" />
+    <link rel="stylesheet" href="../../css/spacing.css" />
+    <link rel="stylesheet" href="../../css/nav_gv.css" />
+    <link rel="stylesheet" href="../../css/footer.css" />
+    <link rel="stylesheet" href="../../css/button.css" />
+    <link rel="stylesheet" href="../../css/form.css" />
+    <link rel="stylesheet" href="../../css/xacNhan.css" />
+    <link rel="stylesheet" href="../../css/giangVien/gv_themDeTai.css" />
+    <script
+      type="module"
+      src="../../javascripts/giangVien/gv_themDeTai.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <form action="" class="form">
+          <h3 class="content--tieuDe heading heading--3 center">
+            Thông tin đồ án
+          </h3>
+          <div class="content">
+            <div class="content--thongTins inputFields">
+              <div class="content--thongTin inputField">
+                <label for="tenDeTai" class="text--label text--label_16_bold"
+                  >Tên đề tài</label
+                >
+                <input
+                  type="text"
+                  class="input input_nhap"
+                  id="tenDeTai"
+                  name="tenDeTai"
+                  placeholder="Nhập tên đề tài"
+                />
+              </div>
+              <div class="content--thongTin inputField">
+                <label for="giangVienHD" class="text--label text--label_16_bold"
+                  >Loại</label
+                >
+                <select name="loai" id="loai" class="input input_nhap">
+                  <option value="">Chọn loại</option>
+                  <option value="dh">Đại học</option>
+                  <option value="cd">Cao đẳng</option>
+                </select>
+              </div>
+              <div class="content--thongTin inputField">
+                <label for="moTa" class="text--label text--label_16_bold"
+                  >Mô tả</label
+                >
+                <textarea
+                  type="text"
+                  class="input input_nhap text--body text--body_16"
+                  cols="10"
+                  rows="5"
+                  id="moTa"
+                  name="moTa"
+                  placeholder="Mô tả đề tài"
+                ></textarea>
+              </div>
+              <div class="content--thongTin inputField">
+                <label
+                  for="ketQuaCanDat"
+                  class="text--label text--label_16_bold"
+                  >Kết quả cần đạt</label
+                >
+                <input
+                  type="text"
+                  class="input input_nhap"
+                  id="ketQuaCanDat"
+                  name="ketQuaCanDat"
+                  placeholder="Kết quả cần đạt"
+                />
+              </div>
+              <div class="content--thongTin inputField">
+                <label for="kyNangCanCo" class="text--label text--label_16_bold"
+                  >Kỹ năng cần có</label
+                >
+                <textarea
+                  type="text"
+                  class="input input_nhap text--body text--body_16"
+                  id="kyNangCanCo"
+                  name="kyNangCanCo"
+                  rows="3"
+                  placeholder="Nhập kỹ năng cần có"
+                ></textarea>
+              </div>
+              <div class="content--thongTin inputField">
+                <label for="tag" class="text--label text--label_16_bold"
+                  >Tag</label
+                >
+                <input
+                  type="text"
+                  class="input input_nhap"
+                  id="tag"
+                  name="tag"
+                  placeholder="Nhập tag"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="btn btn--secondary">Hủy</button>
+            <button class="btn btn--fourth" disabled>Thêm đề tài</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

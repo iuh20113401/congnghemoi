@@ -1,0 +1,76 @@
+.troChuyen::-webkit-scrollbar {
+  display: none;
+}
+.troChuyen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: scroll;
+  padding: 3.2rem 0;
+}
+.troChuyen--left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 1.6rem;
+  border-right: 5px solid var(--color--secondary_4);
+}
+.troChuyen--tieuDe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.troChuyen--lienHes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.troChuyen--lienHe {
+  width: 100%;
+  height: 6.4rem;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 1.6rem;
+  gap: 1.6rem;
+  border-radius: 0.3rem;
+}
+.troChuyen--lienHe:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: var(--color--secondary_4);
+}
+.troChuyen--lienHe.active {
+  background-color: var(--color--secondary_5);
+}
+.troChuyen--avatarBox {
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.troChuyen--avatar {
+  height: 100%;
+}
+.troChuyen--right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.troChuyen--name {
+  padding: 1.2rem 3.2rem;
+  height: 6.8rem;
+  border-bottom: 3px solid var(--color--secondary_4);
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.troChuyen--tinNhan {
+  width: 100%;
+  height: auto;
+}
+.troChuyen--nhanTin {
+  height: fit-content;
+  width: 100%;
+}

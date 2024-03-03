@@ -1,0 +1,14 @@
+@import url("../base.css");
+.container {
+  width: 100%;
+  display: flex;
+  gap: 3.2rem;
+}
+.main {
+  width: 75%;
+  padding: 3.2rem 0;
+}
+.form {
+  width: 80%;
+  margin: auto;
+}

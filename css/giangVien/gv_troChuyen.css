@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1.6rem;
+}
+.main {
+  width: 95%;
+  height: 90vh;
+  margin: auto;
+}
+.troChuyen {
+  padding: 1.6rem 0;
+}

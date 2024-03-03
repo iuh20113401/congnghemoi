@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.layer + .container {
+  height: 100vh;
+  position: fixed;
+}
+.main {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.main--tieuDe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

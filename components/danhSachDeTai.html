@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách đề tài</title>
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/spacing.css" />
+    <link rel="stylesheet" href="../css/xacNhan.css" />
+    <link rel="stylesheet" href="../css/button.css" />
+    <link rel="stylesheet" href="../css/danhSachDeTai.css" />
+    <link rel="stylesheet" href="../css/grid.css" />
+    <link rel="stylesheet" href="../css/tag.css" />
+  </head>
+  <body>
+    <!-- <div class="container">
+      <table class="tbl dsDeTai mt-64">
+        <tr>
+          <th class="heading heading--5">STT</th>
+          <th class="heading heading--5">Tên đề tài</th>
+          <th class="heading heading--5">Giảng viên HD</th>
+          <th class="heading heading--5">Mô tả</th>
+          <th class="heading heading--5">Kỹ năng cần có</th>
+          <th class="heading heading--5">Tag</th>
+          <th>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="icon"
+            >
+              <path
+                d="M18.75 12.75h1.5a.75.75 0 0 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM12 6a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 6ZM12 18a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 12 18ZM3.75 6.75h1.5a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 0 0 0 1.5ZM5.25 18.75h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5ZM3 12a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 3 12ZM9 3.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM12.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0ZM9 15.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5Z"
+              />
+            </svg>
+          </th>
+        </tr>
+        <tr>
+          <td class="text--body text--body_14">1</td>
+          <td class="text--body text--body_14">
+            Xây dựng Website hỗ trợ việc chọn trường đại học cho học sinh
+          </td>
+          <td class="text--body text--body_14">Trần Thị Kim Chi</td>
+          <td class="text--body text--body_14">
+            Việc chọn trường học là việc quan trọng trong tương lai cho hoc
+            sinh. Website cung cấp cho học sinh dễ dàng, nhanh chóng chọn trường
+            phù hợp nhất với nguyện vọng và năng lực của bản thân. Tạo CSDL lưu
+            trữ thông tin ngành, điểm vào đại học của các trường những năm trước
+            trên cả nước. Trên cơ sở đó, với kết quả học tập trong từng giai
+            đoạn, Website sẽ cho ra kết quả tốt nhất.
+          </td>
+          <td class="text--body text--body_14">
+            - Ngôn ngữ trên server: Tùy chọn (Ưu tiên: PHP, Java, Python,...) -
+            CSDL: Tùy chọn (Ưu tiên: MySQL,..) - Lợi thế hơn khi có kiến thức về
+            Machine Learning, Web Scraping
+          </td>
+          <td class="text--body text--body_14">Htm, css, phân tích dữ liệu</td>
+          <td>
+            <button class="btn btn--primary">Đăng ký</button>
+          </td>
+        </tr>
+      </table>
+    </div> -->
+    <div class="container">
+      <div class="dsDeTai">
+        <div class="tieuDe grid">
+          <h3 class="heading heading--5 col-1">STT</h3>
+          <h3 class="heading heading--5 col-1">Tên đề tài</h3>
+          <h3 class="heading heading--5 col-1 text-center">Giảng viên HD</h3>
+          <h3 class="heading heading--5 col-3 text-center">Mô tả</h3>
+          <h3 class="heading heading--5 col-2 text-center">Kỹ năng cần có</h3>
+          <h3 class="heading heading--5 col-2 text-center">Tag</h3>
+          <h3 class="heading heading--5 col-2 text-center">biêu tượng</h3>
+        </div>
+        <div class="noiDung">
+          <div class="noiDung--thongTin grid">
+            <p class="text--body text--body_14 col-1">1</p>
+            <p class="text--body text--body_14 col-1">
+              Xây dựng Website hỗ trợ việc chọn trường đại học cho học sinh
+            </p>
+            <p class="text--body text--body_14 col-1 text-center">
+              Trần Thị Kim Chi
+            </p>
+            <p class="text--body text--body_14 col-3">
+              Việc chọn trường học là việc quan trọng trong tương lai cho hoc
+              sinh. Website cung cấp cho học sinh dễ dàng, nhanh chóng chọn
+              trường phù hợp nhất với nguyện vọng và năng lực của bản thân. Tạo
+              CSDL lưu trữ thông tin ngành, điểm vào đại học của các trường
+              những năm trước trên cả nước. Trên cơ sở đó, với kết quả học tập
+              trong từng giai đoạn, Website sẽ cho ra kết quả tốt nhất.
+            </p>
+            <p class="text--body text--body_14 col-2">
+              - Ngôn ngữ trên server: Tùy chọn (Ưu tiên: PHP, Java, Python,...)
+              - CSDL: Tùy chọn (Ưu tiên: MySQL,..) - Lợi thế hơn khi có kiến
+              thức về Machine Learning, Web Scraping
+            </p>
+            <div class="tags text--body text--body_14 col-2 text-center center">
+              <div class="tag text--body text--body_14">HTML</div>
+              <div class="tag text--body text--body_14">Phân tích dữ liệu</div>
+              <div class="tag text--body text--body_14">CSS</div>
+              <div class="tag text--body text--body_14">Javascript</div>
+            </div>
+            <div class="col-2 text-center">
+              <button class="btn btn--primary">Đăng ký</button>
+            </div>
+          </div>
+          <div class="noiDung--thongTin grid">
+            <p class="text--body text--body_14 col-1">1</p>
+            <p class="text--body text--body_14 col-1">
+              Xây dựng Website hỗ trợ việc chọn trường đại học cho học sinh
+            </p>
+            <p class="text--body text--body_14 col-1 text-center">
+              Trần Thị Kim Chi
+            </p>
+            <p class="text--body text--body_14 col-3">
+              Việc chọn trường học là việc quan trọng trong tương lai cho hoc
+              sinh. Website cung cấp cho học sinh dễ dàng, nhanh chóng chọn
+              trường phù hợp nhất với nguyện vọng và năng lực của bản thân. Tạo
+              CSDL lưu trữ thông tin ngành, điểm vào đại học của các trường
+              những năm trước trên cả nước. Trên cơ sở đó, với kết quả học tập
+              trong từng giai đoạn, Website sẽ cho ra kết quả tốt nhất.
+            </p>
+            <p class="text--body text--body_14 col-2">
+              - Ngôn ngữ trên server: Tùy chọn (Ưu tiên: PHP, Java, Python,...)
+              - CSDL: Tùy chọn (Ưu tiên: MySQL,..) - Lợi thế hơn khi có kiến
+              thức về Machine Learning, Web Scraping
+            </p>
+            <div class="tags text--body text--body_14 col-2 text-center center">
+              <div class="tag text--body text--body_14">HTML</div>
+              <div class="tag text--body text--body_14">Phân tích dữ liệu</div>
+              <div class="tag text--body text--body_14">CSS</div>
+              <div class="tag text--body text--body_14">Javascript</div>
+            </div>
+            <div class="col-2 text-center">
+              <button class="btn btn--primary">Đăng ký</button>
+            </div>
+          </div>
+          <div class="noiDung--thongTin grid">
+            <p class="text--body text--body_14 col-1">1</p>
+            <p class="text--body text--body_14 col-1">
+              Xây dựng Website hỗ trợ việc chọn trường đại học cho học sinh
+            </p>
+            <p class="text--body text--body_14 col-1 text-center">
+              Trần Thị Kim Chi
+            </p>
+            <p class="text--body text--body_14 col-3">
+              Việc chọn trường học là việc quan trọng trong tương lai cho hoc
+              sinh. Website cung cấp cho học sinh dễ dàng, nhanh chóng chọn
+              trường phù hợp nhất với nguyện vọng và năng lực của bản thân. Tạo
+              CSDL lưu trữ thông tin ngành, điểm vào đại học của các trường
+              những năm trước trên cả nước. Trên cơ sở đó, với kết quả học tập
+              trong từng giai đoạn, Website sẽ cho ra kết quả tốt nhất.
+            </p>
+            <p class="text--body text--body_14 col-2">
+              - Ngôn ngữ trên server: Tùy chọn (Ưu tiên: PHP, Java, Python,...)
+              - CSDL: Tùy chọn (Ưu tiên: MySQL,..) - Lợi thế hơn khi có kiến
+              thức về Machine Learning, Web Scraping
+            </p>
+            <div class="tags text--body text--body_14 col-2 text-center center">
+              <div class="tag text--body text--body_14">HTML</div>
+              <div class="tag text--body text--body_14">Phân tích dữ liệu</div>
+              <div class="tag text--body text--body_14">CSS</div>
+              <div class="tag text--body text--body_14">Javascript</div>
+            </div>
+            <div class="col-2 text-center">
+              <button class="btn btn--primary">Đăng ký</button>
+            </div>
+          </div>
+          <div class="noiDung--thongTin grid">
+            <p class="text--body text--body_14 col-1">1</p>
+            <p class="text--body text--body_14 col-1">
+              Xây dựng Website hỗ trợ việc chọn trường đại học cho học sinh
+            </p>
+            <p class="text--body text--body_14 col-1 text-center">
+              Trần Thị Kim Chi
+            </p>
+            <p class="text--body text--body_14 col-3">
+              Việc chọn trường học là việc quan trọng trong tương lai cho hoc
+              sinh. Website cung cấp cho học sinh dễ dàng, nhanh chóng chọn
+              trường phù hợp nhất với nguyện vọng và năng lực của bản thân. Tạo
+              CSDL lưu trữ thông tin ngành, điểm vào đại học của các trường
+              những năm trước trên cả nước. Trên cơ sở đó, với kết quả học tập
+              trong từng giai đoạn, Website sẽ cho ra kết quả tốt nhất.
+            </p>
+            <p class="text--body text--body_14 col-2">
+              - Ngôn ngữ trên server: Tùy chọn (Ưu tiên: PHP, Java, Python,...)
+              - CSDL: Tùy chọn (Ưu tiên: MySQL,..) - Lợi thế hơn khi có kiến
+              thức về Machine Learning, Web Scraping
+            </p>
+            <div class="tags text--body text--body_14 col-2 text-center center">
+              <div class="tag text--body text--body_14">HTML</div>
+              <div class="tag text--body text--body_14">Phân tích dữ liệu</div>
+              <div class="tag text--body text--body_14">CSS</div>
+              <div class="tag text--body text--body_14">Javascript</div>
+            </div>
+            <div class="col-2 text-center">
+              <button class="btn btn--primary">Đăng ký</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

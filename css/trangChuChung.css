@@ -1,0 +1,45 @@
+@import url("../trangChuChung.css");
+
+.banner {
+  position: relative;
+}
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow: hidden;
+}
+.banner--image {
+  width: 100%;
+  height: 32rem;
+  flex-shrink: 0;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+}
+#arrLeft {
+  left: 1%;
+}
+#arrRight {
+  right: 1%;
+}
+.thongBao {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.thongBao--noiDungs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.thongBao--noiDung {
+  display: flex;
+  justify-content: space-between;
+}
+.thongBao--noiDung:hover {
+  color: var(--color--main);
+  font-weight: 600;
+  cursor: pointer;
+}
